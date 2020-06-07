@@ -21,7 +21,7 @@ flat1 = Flat.create!(
 flat2 = Flat.create!(
   name: 'Amazing View over the City',
   address: 'Raemistrasse 50, 8000 Zurich',
-  picture: 'https://images.unsplash.com/photo-1436812911242-3d475df4bdd1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+  picture: 'https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80',
   description: 'A lovely view from the living room of the flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 150,
   number_of_guests: 5
