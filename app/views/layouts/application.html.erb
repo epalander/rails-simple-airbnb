@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsSimpleAirbnb</title>
+    <title>SimpleAirbnb</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/214067787f.js"></script>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
     <%= yield %>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </body>
+
+    <%= render "shared/footer" %>
 </html>
