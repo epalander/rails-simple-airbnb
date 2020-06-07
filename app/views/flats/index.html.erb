@@ -9,20 +9,18 @@
 
     <% @flats.each_with_index do |flat, index| %>
     <div class="card-product">
-      <div class="card-product-infos">
-        <div class="flat-info">
-          <h4><%= flat.name %></h4>
-          <p><%= flat.address %></p>
-          <div class="flex">
-            <p><i class="fas fa-coins "></i> <%= flat.price_per_night   %>
-            <i class="fas fa-user-friends"></i> <%= flat.number_of_guests %></p>
-          </div>
 
-          <div class="flat-action">
-            <%= link_to 'More info', flat_path(flat) %>
-          </div>
-
+      <div class="flat-info">
+        <h4><%= flat.name %></h4>
+        <p><%= flat.address %></p>
+        <div class="flex">
+          <p><i class="fas fa-coins "></i> <%= flat.price_per_night   %>
+          <i class="fas fa-user-friends"></i> <%= flat.number_of_guests %></p>
         </div>
+      </div>
+
+      <div class="flat-action">
+        <%= link_to 'More info', flat_path(flat), class: 'more-info-button' %>
       </div>
 
     </div>
