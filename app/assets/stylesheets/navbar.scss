@@ -9,3 +9,13 @@
   flex-grow: 0;
 }
 
+.btn {
+  border-color: grey;
+  border-radius: 4px;
+  color: grey;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
