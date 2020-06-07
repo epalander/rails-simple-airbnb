@@ -25,8 +25,11 @@ class FlatsController < ApplicationController
   end
 
   def update
-    @flat.update(flat_params)
-    redirect_to flat_path(@flat)
+    if @flat.update(flat_params)
+        redirect_to flat_path(@flat), notice: 'The apartment was successfully updated.'
+    else
+      render :edit
+    end
   end
 
   def destroy
