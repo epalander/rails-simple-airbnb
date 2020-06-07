@@ -10,6 +10,9 @@
     <% @flats.each_with_index do |flat, index| %>
     <div class="card-product">
 
+      <div class="flat-picture" style="background-image: url('<%= flat.picture %>')">
+      </div>
+
       <div class="flat-info">
         <h4><%= flat.name %></h4>
         <p><%= flat.address %></p>
