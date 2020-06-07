@@ -20,7 +20,9 @@
       </div>
 
       <div class="flat-action">
-        <%= link_to 'More info', flat_path(flat), class: 'more-info-button' %>
+        <%= link_to 'More info', flat_path(flat), class: 'more-info-button mr-2' %>
+        <%= link_to '', edit_flat_path(flat), class: 'fas fa-pen' %>
+        <%= link_to '', flats_path(flat), class: 'fas fa-trash'  %>
       </div>
 
     </div>
