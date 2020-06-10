@@ -1,7 +1,6 @@
 
 .flat-show-container {
   background-color: #F8F9FA;
-  width: 70vW;
   margin: 12px auto;
   padding: 12px;
 }
@@ -15,4 +14,11 @@
   background-position: center;
   background-size: cover;
 }
+.flex {
+  display: flex;
+  justify-content: center
+}
 
+.flex-center {
+  justify-content: center
+}

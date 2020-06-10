@@ -1,6 +1,6 @@
 <div class="show-banner" style="background-image: url('<%= @flat.picture %>')"></div>
 
-<div class="container">
+<div class="container flex">
   <div class="row">
     <div class="col-8">
       <div class="flat-show-container negative-margin">
@@ -18,6 +18,27 @@
           <h3>Some more details</h3>
           <p><i class="fas fa-coins mr-2"></i> <%= @flat.price_per_night   %>
           <i class="fas fa-user-friends mr-2 ml-4"></i> <%= @flat.number_of_guests %></p>
+      </div>
+    </div>
+
+    <div class="col-4 ">
+      <div class="flat-show-container negative-margin">
+        <h5>Book this place!</h5>
+      </div>
+
+      <div class="flat-show-container">
+        <div class="flex flex-center">
+          <div class="social-icons">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f mr-2"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter mr-2"></i></a></li>
+              <li><a href=""><i class="fab fa-pinterest-p mr-2"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin-in mr-2"></i></a></li>
+              <li><a href=""><i class="fas fa-envelope"></i></a></li>
+              <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
     </div>
